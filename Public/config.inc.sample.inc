@@ -1,0 +1,107 @@
+<?php
+
+/**
+ * Copyright 2021, 2024 5 Mode
+ *
+ * This file is part of DropInPic.
+ *
+ * DropInPic is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * DropInPic is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.  
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with DropInPic. If not, see <https://www.gnu.org/licenses/>.
+ *
+ * config.inc
+ * 
+ * DropInPic configuration settings.
+ *
+ * @author Daniele Bonini <my25mb@aol.com>
+ * @copyrights (c) 2021, 2024, 5 Mode     
+ */
+
+define('DEBUG', true);
+ 
+define('APP_NAME', "DropInPic");
+
+define('APP_TITLE', "DropInPic");
+define('APP_DESCRIPTION', "Welcome to DropInPic! Let everyone drop their own pictures.");
+define('APP_KEYWORDS', "picture,logger,list,on,premise,solution");
+
+// password: youpassword
+// salt: yoursalt
+define('APP_HASH', "");
+
+define('APP_PATH', "/pathto/DropInPic/Public");
+define('APP_DATA_PATH', "/pathto/DropInPic/Private/data");
+define('APP_SALT', "yoursalt");
+// Default Locale, in two letters format
+define('APP_LOCALE', "EN");
+define('APP_CUSTOM_HEADER', "");
+// App uses: PRIVATE or BUSINESS
+define('APP_USE', "BUSINESS");
+define('APP_GUEST_MSG', "This is a private picture list, please login");
+define('APP_WELCOME_MSG', "Your pic:");
+// Max signs from a single client
+define('APP_MAX_FROM_IP', 5);
+// Default Context: 'PRIVATE' or 'PUBLIC'
+define('APP_DEFAULT_CONTEXT', "PUBLIC");
+define('APP_FILE_MAX_SIZE', 5996000);
+define('DISPLAY_SHOW_HEADER', true);
+define('DISPLAY_SHOW_DATETIME', true);
+define('DISPLAY_DATE_FONT', "Yuji Boku");
+define('DISPLAY_SUBMIT_BUTTON', "Log event");
+define('CMDLINE_VALIDCMDS', "~|sign|del|conf|refresh|");
+define('HISTORY_MAX_ITEMS', 1000);
+
+$CONFIG = [
+
+   'DEBUG' => true,
+
+   'APP' => [
+      'NAME' => "DropInPic",
+      'TITLE' => "DropInPic",
+      'APP_DESCRIPTION' => "Welcome to DropInPic! Let everyone drop their own pictures.",
+      'APP_KEYWORDS' => "picture,logger,list,on,premise,solution",
+      // password: yourpassword
+      // salt: yoursalt
+      'HASH' => "",  
+      'PATH' => "/pathto/DropInPic/Public",
+      'DATA_PATH' => "/pathto/DropInPic/Private/data",
+      'SALT' => "yoursalt",
+      // Default Locale, in two letters format
+      'LOCALE' => "EN",
+      'CUSTOM_HEADER' => "",
+      // App use: PRIVATE or BUSINESS
+      'USE' => "BUSINESS",
+      'GUEST_MSG' => "This is a private picture list, please login",
+      'WELCOME_MSG' => "Your pic:",
+      // Max signs from a single client
+      'APP_MAX_FROM_IP' =>  5,
+      // Default Context: 'PRIVATE' or 'PUBLIC'
+      'DEFAULT_CONTEXT' => "PUBLIC",
+      'FILE_MAX_SIZE' => 5996000
+      ],
+     
+    'DISPLAY' => [
+      'SHOW_DATETIME' => true,    
+      'SHOW_HEADER' => true,
+      'DATE_FONT' => "Yuji Boku",
+      'SUBMIT_BUTTON' => "Log event"
+      ],
+
+    'CMDLINE' => [
+       'VALIDCMDS' => "~|sign|del|conf|refresh|"  
+      ],
+
+    'HISTORY' => [
+     'MAX_ITEMS' => 1000
+      ]  
+    
+  ];
