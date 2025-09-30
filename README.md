@@ -24,4 +24,4 @@ Feedback: <a href="mailto:code@gaox.io" style="color:#e6d236;">code@gaox.io</a>
   	   
 ## Screenshots  
 	   
- ![DropInPic in action](/DIS_res/screenshot1.png)
+ ![DropInPic in action](/Public/DIS_res/screenshot1.png)
