@@ -18,10 +18,10 @@ As you are going to run DropInPic in the PHP process context, using a limited we
  <li>Configure the DISPLAY attributes as required.</li>
  <li>Configure the max history items as required (default: 1000).</li>	      
 </ul>
-</ol>
-   
-Feedback: <a href="mailto:code@gaox.io" style="color:#e6d236;">code@gaox.io</a>
-  	   
+</ol>  
+
 ## Screenshots  
 	   
  ![DropInPic in action](/Public/DIS_res/screenshot1.png)
+
+Feedback: <a href="mailto:code@gaox.io" style="color:#e6d236;">code@gaox.io</a>
