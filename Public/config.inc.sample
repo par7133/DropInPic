@@ -67,8 +67,8 @@ $CONFIG = [
    'APP' => [
       'NAME' => "DropInPic",
       'TITLE' => "DropInPic",
-      'APP_DESCRIPTION' => "Welcome to DropInPic! Let everyone drop their own pictures.",
-      'APP_KEYWORDS' => "picture,logger,list,on,premise,solution",
+      'DESCRIPTION' => "Welcome to DropInPic! Let everyone drop their own pictures.",
+      'KEYWORDS' => "picture,logger,list,on,premise,solution",
       // password: yourpassword
       // salt: yoursalt
       'HASH' => "",  
@@ -83,7 +83,7 @@ $CONFIG = [
       'GUEST_MSG' => "This is a private picture list, please login",
       'WELCOME_MSG' => "Your pic:",
       // Max signs from a single client
-      'APP_MAX_FROM_IP' =>  5,
+      'MAX_FROM_IP' =>  5,
       // Default Context: 'PRIVATE' or 'PUBLIC'
       'DEFAULT_CONTEXT' => "PUBLIC",
       'FILE_MAX_SIZE' => 5996000
